@@ -1,6 +1,6 @@
 FROM node:21-alpine3.19
 
-WORKDIR /user/src/app
+WORKDIR /usr/src/app
 
 COPY package*.json ./
 
